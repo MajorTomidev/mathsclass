@@ -1,12 +1,18 @@
-# Find x if 4 = 2x+5
-x = (4-5)/2
-print(x)
+# How many seconds are in 42 minutes 42seconds
+mins = 42
+secs = 42 
 
-# Find the area of a triangle using heros formula if a=5, b=7, c=10
-a = 5
-b = 7
-c = 10
-s = (a+b+c)//2
-print(s)
-area = (s*(s-a)*(s-b)*(s-c))**0.5
-print(area)
+# 60 seconds in 1 minute
+
+t_mins = mins * 60 
+t_secs = t_mins + secs
+
+print(t_secs)
+
+# how many miles are in 10kms, 1.61kms = a mile
+miles = 1.61
+km = 10
+
+t_miles = km / miles
+print (t_miles)
+
